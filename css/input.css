@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Museo";
+    src: url("../font/MuseoSans_500.otf");
+}
+
+@font-face {
+    font-family: "FABrands";
+    src: url("../font/fa-brands-400.ttf");
+}
+
+@font-face {
+    font-family: "FASolid";
+    src: url("../font/fa-solid-900.ttf");
+}
+
+.text-museo{
+    font-family: "Museo";
+}
+
+.icono-brands{
+    font-family: "FABrands";
+}
+
+.icono-solid{
+    font-family: "FASolid";
+}

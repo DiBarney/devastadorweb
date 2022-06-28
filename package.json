@@ -1,0 +1,14 @@
+{
+  "name": "devastadorweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "author": "Daniel García",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
