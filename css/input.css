@@ -28,3 +28,21 @@
 .icono-solid{
     font-family: "FASolid";
 }
+
+.lime-grad{
+    background: linear-gradient(180deg, rgba(101,163,13,1) 0%, rgba(77,124,15,1) 100%);
+}
+
+.marginMinus{
+    margin-top: -40px;
+}
+
+.animarLogo{
+    animation: desplazamiento 6s ease-in-out infinite;
+}
+
+@keyframes desplazamiento {
+    0%{transform:translateY(0px) rotate(0deg);}
+	50%{transform:translateY(30px) rotate(-5deg);}
+	100%{transform:translateY(0px) rotate(0deg);}
+}
