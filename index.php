@@ -1,70 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicio de antivirus accesible para todo público | Devastador Antivirus</title>
-    <link rel="stylesheet" href="./css/output.css">
-    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
-</head>
+<?php include('head.php'); ?>
 <body class="text-museo">
-    <!-- <section class="iconoFlotante fixed right-5 bottom-5">
-        <div class="bg-white rounded-full">
-            <a href="" class="icono-brands text-5xl text-cyan-600"></a>
-        </div>
-    </section> -->
-    <header class="w-full shadow-lg">
-        <div class="w-full max-w-screen-xl m-auto p-4 flex flex-row items-between">
-            <section class="flex flex-row items-center justify-start w-1/2">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="./img/logotipo.png" alt="Logo devastador" style="width: 260px;">
-                    </a>
-                </div>
-                <div class="menu">
-                    <nav>
-                        <a href="" class="ml-4 hover:border-b-2 border-b-gray-700">Productos</a>
-                        <a href="" class="ml-4 hover:border-b-2 border-b-gray-700">Comprar</a>
-                        <a href="" class="ml-4 hover:border-b-2 border-b-gray-700">Contácto</a>
-                    </nav>
-                </div>
-            </section>
-            <section class="flex flex-row items-center justify-end w-1/2">
-                <div class="buscar">
-                    <button><p class="icono-solid"></p></button>
-                </div>
-                <div class="sesion">
-                    <a href="" class="ml-4 hover:border-b-2 border-b-gray-700">Iniciar Sesión</a>
-                    <a href="" class="ml-4 p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Registrarse</a>
-                </div>
-            </section>
-        </div>
-    </header>
+    <?php include('header.php'); ?>
+
     <main class="w-full">
         <!-- Call to action -->
-        <section class="w-full max-w-screen-xl m-auto callToAction flex flex-row justify-between">
-            <div class="col texto w-5/12 px-6 flex flex-col justify-center">
-                <h1 class="text-4xl font-bold mb-5">Seguridad en informática accesible para todo público</h1>
+        <section class="w-full max-w-screen-xl m-auto callToAction relative flex flex-row justify-between">
+            <div class="col texto w-11/12 md:w-5/12 px-6 py-6 flex flex-col justify-center z-10">
+                <h1 class="text-4xl font-bold mb-8 md:mb-5">Seguridad en informática accesible para todo público</h1>
                 <h2 class="text-xl mb-5">Antivirus Devastador <sup class="text-xs">TM</sup></h2>
                 <p class="text-md mb-5">Solucion en seguridad informática pensada para la computación moderna, para los usuarios del ahora y para las empresas del futuro.</p>
                 <div>
                     <a href="" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Ver planes para hogar</a>
                 </div>
             </div>
-            <div class="col img w-7/12">
+            <div class="col absolute md:relative right-0 w-10/12 md:w-7/12 z-0">
                 <img src="./img/laptop3.png" alt="Mujer con laptop" style="width: 800px;">
             </div>
         </section>
 
         <!-- Info Marketing -->
         <section class="w-full lime-grad py-20">
-            <div class="w-full max-w-screen-xl m-auto flex flex-row ">
-                <div class="w-4/12 flex flex-col items-center">
+            <div class="w-full max-w-screen-xl m-auto flex flex-col-reverse md:flex-row">
+                <div class="w-12/12 md:w-4/12 flex flex-col items-center">
                     <img src="./img/logo.png" alt="Logotipo antivirus devastador" style="width: 280px;" class="animarLogo">
                     <div class="sombraObj"></div>
                 </div>
-                <div class="w-8/12 text-white text-center flex flex-col justify-center">
+                <div class="w-12/12 md:w-8/12 text-white text-center flex flex-col justify-center">
                     <h2 class="text-4xl font-semibold mb-5">"El nombre lo dice todo"</h2>
                     <p class="text-lg">Nuestra tecnología no deja entrar a ningún virus ni malware a su sistema<br>Programado para aniquilar y <strong>devastar</strong> a cualquiera que amenace su seguridad.</p>
                 </div>
@@ -73,8 +34,8 @@
 
         <!-- Atributos -->
         <section class="w-full marginMinus pb-20">
-            <div class="w-full max-w-screen-xl m-auto flex flex-row">
-                <div class="w-4/12 p-4 text-center flex flex-col justify-center">
+            <div class="w-full max-w-screen-xl m-auto flex flex-col md:flex-row">
+                <div class="w-12/12 md:w-4/12 p-4 text-center flex flex-col justify-center">
                     <div class="mb-5">
                         <div class="bg-gray-300 inline-block text-6xl p-8 rounded-full">
                             <p class="icono-solid"></p>
@@ -83,7 +44,7 @@
                     <h2 class="text-xl font-semibold mb-5">Anti Virus</h2>
                     <p class="text-md">Actualizamos nuestra base de datos de amenazas constantemente para garantizar la detección de cada nuevo virus emergente</p>
                 </div>
-                <div class="w-4/12 p-4 text-center flex flex-col justify-center">
+                <div class="w-12/12 md:w-4/12 p-4 text-center flex flex-col justify-center">
                     <div class="mb-5">
                         <div class="bg-gray-300 inline-block text-6xl p-8 rounded-full">
                             <p class="icono-solid"></p>
@@ -92,7 +53,7 @@
                     <h2 class="text-xl font-semibold mb-5">Anti Malware</h2>
                     <p class="text-md">Integramos parches de seguridad con nuevas actualizaciones para detectar cualquier nuevo software malicioso</p>
                 </div>
-                <div class="w-4/12 p-4 text-center flex flex-col justify-center">
+                <div class="w-12/12 md:w-4/12 p-4 text-center flex flex-col justify-center">
                     <div class="mb-5">
                         <div class="bg-gray-300 inline-block text-6xl p-8 rounded-full">
                             <p class="icono-solid"></p>
@@ -107,8 +68,8 @@
         <!-- Tipos de planes -->
         <section class="w-full pb-20">
             <h2 class="text-4xl font-semibold mb-20 text-center">Disponible para cualquier tipo de usuario</h2>
-            <div class="w-full max-w-screen-xl m-auto flex flex-row">
-                <div class="w-4/12 p-4 text-center flex flex-col justify-center">
+            <div class="w-full max-w-screen-xl m-auto flex flex-col md:flex-row">
+                <div class="w-12/12 md:w-4/12 p-4 text-center flex flex-col justify-center">
                     <div class="mb-8">
                         <img src="./img/basi.png" style="width: 200px; margin: auto;">
                     </div>
@@ -132,7 +93,7 @@
                     </div>
                 </div>
 
-                <div class="marginMinus w-4/12 p-4 text-center flex flex-col justify-center rounded-lg bg-gray-200 shadow-lg">
+                <div class="marginMinus w-12/12 md:w-4/12 p-4 text-center flex flex-col justify-center rounded-lg bg-gray-200 shadow-lg">
                     <div class="mb-8">
                         <img src="./img/avan.png" style="width: 200px; margin: auto;">
                     </div>
@@ -156,7 +117,7 @@
                     </div>
                 </div>
 
-                <div class="w-4/12 p-4 text-center flex flex-col justify-center">
+                <div class="w-12/12 md:w-4/12 p-4 text-center flex flex-col justify-center">
                     <div class="mb-8">
                         <img src="./img/prof.png" style="width: 200px; margin: auto;">
                     </div>
@@ -183,8 +144,8 @@
         </section>
 
         <!-- Vectores Dispositivos -->
-        <section class="w-full max-w-screen-xl m-auto overflow-hidden flex flex-row justify-between">
-            <div class="col texto w-5/12 px-6 flex flex-col justify-center">
+        <section class="w-full max-w-screen-xl m-auto overflow-hidden flex flex-col md:flex-row justify-between">
+            <div class="col texto w-12/12 md:w-5/12 px-6 flex flex-col justify-center">
                 <h2 class="text-4xl font-bold mb-5">Protección completa para todos tus dispositivos</h1>
                 <h2 class="text-xl mb-5">Devastador Móvil <sup class="text-xs">TM</sup></h2>
                 <p class="text-md mb-5">Todos nuestros planes incluyen protección para tus dispositivos móviles y de escritorio.</p>
@@ -192,16 +153,16 @@
                     <a href="" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Ver todos los planes</a>
                 </div>
             </div>
-            <div class="col img w-7/12">
-                <img src="./img/devices.png" alt="Mujer con laptop" style="width: 800px;">
+            <div class="col img mt-6 mx-auto w-11/12 md:w-7/12">
+                <img src="./img/devices.png" alt="Mujer con laptop" style="width: 100%;">
             </div>
         </section>
 
         <!-- Tipos de planes -->
         <section class="w-full py-20">
-            <h2 class="text-4xl font-semibold mb-20 text-center">Lo que opinan los usuarios de Devastador <sup class="text-lg">TM</sup></h2>
-            <div class="w-full max-w-screen-xl m-auto flex flex-row">
-                <div class="w-4/12 p-4 text-center flex flex-col justify-center">
+            <h2 class="text-4xl font-semibold mb-4 md:mb-20 text-center">Lo que opinan los usuarios de Devastador <sup class="text-lg">TM</sup></h2>
+            <div class="w-full max-w-screen-xl m-auto flex flex-col md:flex-row">
+                <div class="w-12/12 md:w-4/12 p-4 text-center flex flex-col justify-center">
                     <div class="shadow-lg p-2">
                         <div class="infoTestimonio">
                             <p class="text-md text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eaque fugit esse, ipsa eum iste explicabo delectus ipsum quaerat minus eligendi quas laudantium corrupti? Quos labore possimus pariatur in, non quas aliquid eius fugiat libero sit cumque sunt obcaecati quis!</p>
@@ -212,7 +173,7 @@
                     </div>
                 </div>
 
-                <div class="w-4/12 p-4 text-center flex flex-col justify-center">
+                <div class="w-12/12 md:w-4/12 p-4 text-center flex flex-col justify-center">
                     <div class="shadow-lg p-2">
                         <div class="infoTestimonio">
                             <p class="text-md text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eaque fugit esse, ipsa eum iste explicabo delectus ipsum quaerat minus eligendi quas laudantium corrupti? Quos labore possimus pariatur in, non quas aliquid eius fugiat libero sit cumque sunt obcaecati quis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, reprehenderit.</p>
@@ -223,7 +184,7 @@
                     </div>
                 </div>
 
-                <div class="w-4/12 p-4 text-center flex flex-col justify-center">
+                <div class="w-12/12 md:w-4/12 p-4 text-center flex flex-col justify-center">
                     <div class="shadow-lg p-2">
                         <div class="infoTestimonio">
                             <p class="text-md text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eaque fugit esse, ipsa eum iste explicabo delectus ipsum quaerat minus eligendi quas laudantium corrupti? Quos labore possimus pariatur in, non quas aliquid eius fugiat libero sit cumque sunt obcaecati quis!</p>
@@ -236,68 +197,10 @@
             </div>
         </section>
 
-        <!-- Icono flotante -->
-        <!-- <section class="w-full max-w-screen-xl m-auto flex flex-row justify-between">
-            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-            <df-messenger
-                intent="WELCOME"
-                chat-title="DDA-Assistantt"
-                agent-id="024afd5d-54f1-4899-94cf-0703be9aceec"
-                language-code="es"
-            >
-            </df-messenger>
-        </section> -->
+        <?php include('chatbot.php'); ?>
     </main>
 
-    <footer class="w-full m-auto flex flex-col">
-        <section class="w-full max-w-screen-xl m-auto py-4 overflow-hidden flex flex-row justify-between">
-            <div class="flex flex-col w-4/12">
-                <div class="tituloColumna mb-4">
-                    <h3 class="text-lime-900">Para el Hogar</h3>
-                </div>
-                <div class="lista">
-                    <ul class="text-gray-600">
-                        <li class="mb-2">Plan Básico</li>
-                        <li class="mb-2">Plan Avanzado</li>
-                        <li class="mb-2">Plan Profesional</li>
-                        <li class="mb-2">FAQ's</li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div class="flex flex-col w-4/12">
-                <div class="tituloColumna mb-4">
-                    <h3 class="text-lime-900">Empresarial</h3>
-                </div>
-                <div class="lista">
-                    <ul class="text-gray-600">
-                        <li class="mb-2">Plan Profesional para Empresas</li>
-                        <li class="mb-2">Soluciones en ciberseguridad</li>
-                        <li class="mb-2">FAQ's</li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div class="flex flex-col w-4/12">
-                <div class="tituloColumna mb-4">
-                    <h3 class="text-lime-900">Nosotros</h3>
-                </div>
-                <div class="lista">
-                    <ul class="text-gray-600">
-                        <li class="mb-2">Contácto</li>
-                        <li class="mb-2">Trabajos</li>
-                        <li class="mb-2">Privacidad</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="w-full max-w-screen-xl m-auto py-4 flex flex-row justify-center">
-            <div>
-                <p class="text-gray-400">© 2022 Antivirus Devastador <sup class="text-xs">TM</sup></p>
-            </div>
-        </section>
-    </footer>
+    <?php include('footer.php'); ?>
 
 </body>
 </html>
