@@ -9,7 +9,7 @@
                         <li class="mb-2"><a href="#">Plan Básico</a></li>
                         <li class="mb-2"><a href="#">Plan Avanzado</a></li>
                         <li class="mb-2"><a href="#">Plan Profesional</a></li>
-                        <li class="mb-2"><a href="faq.php">FAQ's</a></li>
+                        <li class="mb-2"><a href="help.php">FAQ's</a></li>
                     </ul>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                     <ul class="text-gray-600">
                         <li class="mb-2"><a href="#">Plan Profesional para Empresas</a></li>
                         <li class="mb-2"><a href="#">Soluciones en ciberseguridad</a></li>
-                        <li class="mb-2"><a href="faq.php">FAQ's</a></li>
+                        <li class="mb-2"><a href="help.php">FAQ's</a></li>
                     </ul>
                 </div>
             </div>
