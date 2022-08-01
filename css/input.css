@@ -46,3 +46,15 @@
 	50%{transform:translateY(30px) rotate(-5deg);}
 	100%{transform:translateY(0px) rotate(0deg);}
 }
+
+.contenedorMenu{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+#btnMenu:checked ~ .contenedorMenu{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0%);
+}

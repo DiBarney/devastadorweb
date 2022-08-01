@@ -6,9 +6,8 @@
                 </div>
                 <div class="lista">
                     <ul class="text-gray-600">
-                        <li class="mb-2"><a href="#">Plan Básico</a></li>
-                        <li class="mb-2"><a href="#">Plan Avanzado</a></li>
-                        <li class="mb-2"><a href="#">Plan Profesional</a></li>
+                        <li class="mb-2"><a href="http://www.devastador.com/plan-basico.php">Plan Básico</a></li>
+                        <li class="mb-2"><a href="http://www.devastador.com/plan-avanzado.php">Plan Avanzado</a></li>
                         <li class="mb-2"><a href="help.php">FAQ's</a></li>
                     </ul>
                 </div>
@@ -20,7 +19,7 @@
                 </div>
                 <div class="lista">
                     <ul class="text-gray-600">
-                        <li class="mb-2"><a href="#">Plan Profesional para Empresas</a></li>
+                        <li class="mb-2"><a href="http://www.devastador.com/plan-profesional.php">Plan Profesional para Empresas</a></li>
                         <li class="mb-2"><a href="#">Soluciones en ciberseguridad</a></li>
                         <li class="mb-2"><a href="help.php">FAQ's</a></li>
                     </ul>

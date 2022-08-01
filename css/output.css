@@ -558,6 +558,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -570,8 +574,16 @@ video {
   right: 0px;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .z-10 {
   z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .z-0 {
@@ -648,6 +660,10 @@ video {
 
 .h-52 {
   height: 13rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .max-h-52 {
@@ -744,9 +760,9 @@ video {
   border-bottom-color: rgb(55 65 81 / var(--tw-border-opacity));
 }
 
-.border-t-white {
+.border-b-gray-400 {
   --tw-border-opacity: 1;
-  border-top-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-bottom-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .border-t-lime-700 {
@@ -764,14 +780,14 @@ video {
   background-color: rgb(63 98 18 / var(--tw-bg-opacity));
 }
 
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -825,6 +841,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-4xl {
@@ -909,6 +929,12 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 @font-face {
   font-family: "Museo";
 
@@ -978,6 +1004,18 @@ video {
   100%{
     transform:translateY(0px) rotate(0deg);
   }
+}
+
+.contenedorMenu{
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+#btnMenu:checked ~ .contenedorMenu{
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0%);
 }
 
 .hover\:border-b-2:hover {

@@ -11,7 +11,7 @@
                 <p class="text-md mb-5">Con gusto resolvemos tus dudas más especificas, solo escríbenos a través del formulario de contácto y nos comunicaremos contigo en cuanto nos sea posible.</p>
                 <p class="text-md mb-5">También considera revisar nuestra sección de preguntas frecuentes:</p>
                 <div>
-                    <a href="faq.php" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Ir a FAQ's</a>
+                    <a href="help.php" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Ir a FAQ's</a>
                 </div>
             </div>
             <div class="col bg-lime-600 rounded-lg shadow-lg w-12/12 md:w-7/12">
