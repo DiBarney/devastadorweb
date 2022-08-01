@@ -82,7 +82,7 @@
                         <p class="text-2xl font-bold text-lime-800">$499 <span class="text-sm">/ Año</span></p>
                     </div>
                     <div class="btnComprar">
-                        <a href="http://www.devastador.com/plan-basico.php" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Comprar Ahora</a>
+                        <a href="plan-basico.php" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Comprar Ahora</a>
                     </div>
                     <div class="caracteristicas my-6">
                         <ul>
@@ -106,7 +106,7 @@
                         <p class="text-2xl font-bold text-lime-800">$799 <span class="text-sm">/ Año</span></p>
                     </div>
                     <div class="btnComprar">
-                        <a href="http://www.devastador.com/plan-avanzado.php" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Comprar Ahora</a>
+                        <a href="plan-avanzado.php" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Comprar Ahora</a>
                     </div>
                     <div class="caracteristicas my-6">
                         <ul>
@@ -130,7 +130,7 @@
                         <p class="text-2xl font-bold text-lime-800">$1,099 <span class="text-sm">/ Año</span></p>
                     </div>
                     <div class="btnComprar">
-                        <a href="http://www.devastador.com/plan-profesional.php" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Comprar Ahora</a>
+                        <a href="plan-profesional.php" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Comprar Ahora</a>
                     </div>
                     <div class="caracteristicas my-6">
                         <ul>

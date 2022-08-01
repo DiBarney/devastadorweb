@@ -2,8 +2,8 @@
         <div class="w-full max-w-screen-xl relative m-auto p-4 flex flex-row items-between">
             <section class="flex flex-row items-center justify-start w-1/2">
                 <div class="logo">
-                    <a href="http://www.devastador.com">
-                    <!-- <a href="index.php"> -->
+                    <!-- <a href="http://www.devastador.com"> -->
+                    <a href="index.php">
                         <img src="./img/logotipo.png" alt="Logo devastador" style="width: 260px;">
                     </a>
                 </div>
