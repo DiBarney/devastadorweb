@@ -8,7 +8,7 @@
             <div class="col texto w-11/12 md:w-5/12 px-6 py-6 flex flex-col justify-center z-10">
                 <h1 class="text-4xl font-bold mb-8 md:mb-5">Seguridad en informática accesible para todo público</h1>
                 <h2 class="text-xl mb-5">Antivirus Devastador <sup class="text-xs">TM</sup></h2>
-                <p class="text-md mb-5">Solucion en seguridad informática pensada para la computación moderna, para los usuarios del ahora y para las empresas del futuro.</p>
+                <p class="text-md mb-5">Solucion en seguridad informatica pensada para la computación moderna, para los usuarios del ahora y para las empresas del futuro.</p>
                 <div>
                     <a href="" class="p-2 bg-lime-600 hover:bg-lime-800 transition-colors text-white rounded-lg">Ver planes para hogar</a>
                 </div>
